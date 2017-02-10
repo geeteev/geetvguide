@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.geetvguide" name="GeeTV Guide" version="2.0.0" provider-name="geetee">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">GeeTeeV Guide, EPG</summary>
+		<description lang="en">GeeTeeV Guide is an EPG based on FTV Guide, using my modified ini and custom channel listings.
+With some additions from the TVguide Fullscreen, Echo, DNA TV Guide, and probably others.
+Based on the original TV Guide by twinther.</description>
+		<disclaimer lang="en">GeeTV Guide EPG is based on FTV Guide by rayw1986 and Bluezed, with some additions from DNA TV Guide, all of which are based on the original TV Guide addon by twinther. Uses my own modified ini and custom channel listings (UK, US, and Canadian channels</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GPLv2</license>
+		<forum></forum>
+		<website>geetee.site</website>
+		<email>web@geetee.site</email>
+		<source></source>
+	</extension>
+</addon>
